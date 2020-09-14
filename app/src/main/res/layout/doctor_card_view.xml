@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/cardstyle"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Doctor Name:"
+        android:id="@+id/doctorcardname"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Clinic Name:"
+        android:id="@+id/doctorcardclname"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Experience:"
+        android:id="@+id/doctorcardclexp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Email id:"
+        android:id="@+id/doctorcardemail"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Specialization:"
+        android:id="@+id/doctorcardsoec"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="Take Appointment"
+    android:layout_marginRight="20dp"
+    android:id="@+id/takeappoinment"
+    android:background="@drawable/cardstyle"></Button>
+</LinearLayout>

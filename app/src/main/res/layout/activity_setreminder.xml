@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="660dp"
+            android:orientation="vertical"
+            android:background="@drawable/dialog">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/Titlename"
+                android:background="@android:color/transparent"
+                android:padding="12dp"
+                android:drawablePadding="12dp"
+                android:hint="Name of Reminder:"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:textColorHint="#fff" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/morning"
+                android:background="@android:color/transparent"
+                android:padding="12dp"
+                android:drawablePadding="12dp"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:hint="Morning Pills:"
+                android:textColorHint="#fff" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/afternoon"
+                android:background="@android:color/transparent"
+                android:padding="12dp"
+                android:drawablePadding="12dp"
+                android:hint="Afternoon Pills:"
+                android:textColorHint="#fff" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/night"
+                android:background="@android:color/transparent"
+                android:padding="12dp"
+                android:drawablePadding="12dp"
+                android:hint="Night Pills:"
+                android:textColorHint="#fff" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:ems="10"
+                android:id="@+id/description"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:hint="Description of Reminder:"
+                android:textColorHint="#fff"
+                android:background="@android:color/transparent"
+                android:maxLines="1"
+                android:layout_marginTop="4dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:ems="10"
+                android:id="@+id/startdate"
+                android:drawablePadding="16dp"
+                android:textSize="18dp"
+                android:padding="16dp"
+                android:hint="Start Date:"
+                android:textColorHint="#fff"
+                android:clickable="true"
+                android:background="@android:color/transparent"
+                android:maxLines="1"
+                android:layout_marginTop="4dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:ems="10"
+                android:id="@+id/enddate"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:textSize="18dp"
+                android:hint="End Date:"
+                android:clickable="true"
+                android:textColorHint="#fff"
+                android:background="@android:color/transparent"
+                android:maxLines="1"
+                android:layout_marginTop="4dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:ems="10"
+                android:id="@+id/morningtime"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:textSize="18dp"
+                android:hint="Morning Pill Time:"
+                android:clickable="true"
+                android:textColorHint="#fff"
+                android:background="@android:color/transparent"
+                android:maxLines="1"
+                android:layout_marginTop="4dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:ems="10"
+                android:id="@+id/afternoontime"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:textSize="18dp"
+                android:hint="Afternoon Pill Time:"
+                android:clickable="true"
+                android:textColorHint="#fff"
+                android:background="@android:color/transparent"
+                android:maxLines="1"
+                android:layout_marginTop="4dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textColor="@color/cardview_light_background"
+                android:fontFamily="sans-serif-medium"
+                android:ems="10"
+                android:id="@+id/nighttime"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:textSize="18dp"
+                android:hint="Night Pill Time:"
+                android:clickable="true"
+                android:textColorHint="#fff"
+                android:background="@android:color/transparent"
+                android:maxLines="1"
+                android:layout_marginTop="4dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:clickable="true"
+                android:text="Set Reminder"
+                android:textSize="20dp"
+                android:textColor="#f16f71"
+                android:padding="16dp"
+                android:layout_marginTop="32dp"
+                android:id="@+id/setreminder"/>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingTop="18dp"
+    android:paddingRight="18dp"
+    android:paddingBottom="18dp"
+    tools:context=".Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="16dp"
+                android:padding="16dp"
+                android:src="@drawable/applogo" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/usericlogin"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Username:"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColor="@color/cardview_light_background"
+                android:textColorHint="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Password:"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textColor="@color/cardview_light_background"
+                android:textColorHint="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Your User Type:"
+                android:layout_marginLeft="10dp"
+                android:textColorHint="@color/cardview_light_background"
+                android:layout_marginBottom="0dp"
+                android:paddingBottom="16dp"
+                android:completionHint="Enter Your User Type:"
+                android:completionThreshold="1"
+                android:id="@+id/usertype"
+                android:background="@android:color/transparent"
+                android:textColor="@color/cardview_light_background"
+                ></AutoCompleteTextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Login"
+                android:textColor="#f16f71"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="SignUp As"
+                    android:textColor="#fff"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/doctorcall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:text="Doctor /"
+                    android:textColor="#fff"
+                    android:textSize="14dp"
+                    android:textStyle="bold|italic" />
+                android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/pharmacycall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:text=" Pharmacy /"
+                    android:textColor="#fff"
+                    android:textSize="14dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/patientcall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:text=" Patient"
+                    android:textColor="#fff"
+                    android:textSize="14dp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:clickable="true"
+                android:text="Forget Password?"
+                android:textColor="#fff"
+                android:id="@+id/forgetpassword"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

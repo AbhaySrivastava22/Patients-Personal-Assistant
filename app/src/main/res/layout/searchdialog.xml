@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/dialog"
+    android:orientation="vertical"
+    android:elevation="@dimen/cardview_default_elevation">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Medicine By:"
+        android:textSize="28dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/cardview_light_background"></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/dialog"
+        android:text="Name of Medicine"
+        android:textAlignment="center"
+        android:id="@+id/searchnamemed"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="italic|bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/dialog"
+        android:text="Name of Disease"
+        android:textAlignment="center"
+        android:id="@+id/searchnamedisease"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="italic|bold"
+        android:textSize="20dp"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/dialog"
+        android:text="Using Image of wrapper"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="italic|bold"
+        android:textSize="20dp"
+        android:id="@+id/searchimgwrapper"></Button>
+    </LinearLayout>
+</RelativeLayout>
+

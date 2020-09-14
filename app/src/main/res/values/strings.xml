@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Patients Personal Assistant</string>
+    <string name="title_activity_reminder">reminder</string>
+    <string name="title_activity_nearbydoctor">Map</string>
+    <string name="title_activity_nearbypharmacy">Map</string>
+    <string name="title_activity_nearbydc">Map</string>
+</resources>

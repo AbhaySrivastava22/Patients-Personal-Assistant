@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "397889813660",
+    "firebase_url": "https://mytherapy-93ce3.firebaseio.com",
+    "project_id": "mytherapy-93ce3",
+    "storage_bucket": "mytherapy-93ce3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397889813660:android:5b8d358adad8720d",
+        "android_client_info": {
+          "package_name": "com.example.mytherapy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397889813660-opuccj18os34mph64sgvq37i8h8ma54e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mytherapy",
+            "certificate_hash": "1a4c901414b7302a3ef5fe29fbcca5f0cdfbe6c5"
+          }
+        },
+        {
+          "client_id": "397889813660-94sk6q95oeg4llvs613cr7rerd34jsk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mytherapy",
+            "certificate_hash": "4ebbfeeb0ac4b6ca6437e562c4881e3ab3ffffb0"
+          }
+        },
+        {
+          "client_id": "397889813660-o5nr4pu9c5d9rl13nfaocb295cue0db0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDczOgHCx6GQpoDD_Rs7YwBIvmRb6yZZ5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397889813660-t11pnub75q8bt2f45bpuvt4ua3ri37bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

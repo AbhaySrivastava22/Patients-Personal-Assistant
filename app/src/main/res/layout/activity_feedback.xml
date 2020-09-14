@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Feedback">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:textSize="30dp"
+            android:textStyle="normal|bold|italic"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:text="Feedback"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/applogo"
+            android:layout_centerHorizontal="true"/>
+        <EditText
+            android:textStyle="normal|bold|italic"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:id="@+id/feduser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="UserName"/>
+        <EditText
+            android:textStyle="normal|bold|italic"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:id="@+id/fedmssg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Feedback Message"/>
+
+        <EditText
+            android:textStyle="normal|bold|italic"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:id="@+id/fedmssg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Email Id"/>
+        <Button
+            android:textSize="16dp"
+            android:textStyle="normal|bold|italic"
+            android:textColor="#f16f71"
+            android:id="@+id/feedbackcall"
+            android:background="@color/cardview_light_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Feedback"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
